@@ -20,10 +20,11 @@ class MyApp extends StatelessWidget {
                   width: 400.0,
                   height: 250.0,
                   decoration: BoxDecoration(
-                    borderRadius:
-                        BorderRadius.vertical(top: Radius.circular(16.0)),
+                    //borderRadius:
+                    // BorderRadius.vertical(top: Radius.circular(16.0)),
                     border: Border(
                       top: BorderSide(color: Colors.red, width: 3.0),
+                      // bottom: BorderSide(color: Colors.red, width: 3.0),
                       left: BorderSide(color: Colors.red, width: 3.0),
                       right: BorderSide(color: Colors.red, width: 3.0),
                     ),
@@ -37,8 +38,8 @@ class MyApp extends StatelessWidget {
                   width: 400.0,
                   height: 250.0,
                   decoration: BoxDecoration(
-                    borderRadius:
-                        BorderRadius.vertical(bottom: Radius.circular(16.0)),
+                    // borderRadius:
+                    // BorderRadius.vertical(bottom: Radius.circular(16.0)),
                     border: Border(
                       bottom: BorderSide(color: Colors.red, width: 3.0),
                       top: BorderSide(color: Colors.red, width: 3.0),
