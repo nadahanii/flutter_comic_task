@@ -4,6 +4,10 @@ void main() {
   runApp(MyApp());
 }
 
+/* 
+during performing the task , i found that when i uncomment the border radius part ,
+this makes the border of the first image not visible.
+ */
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
